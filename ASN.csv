@@ -1,240 +1,248 @@
-ASN,Description
-"AS0","-Reserved AS-"
-"AS12816","Leibniz-Rechenzentrum"
-"AS209828","Genc BT Bilisim Teknolojileri Limited Sirketi"
-"AS51167","Contabo GmbH"
-"AS38532","Exabytes Network (Singapore) Pte. Ltd."
-"AS45839","Shinjiru Technology Sdn Bhd"
-"AS141039","Packethub s.a."
-"AS23470","ReliableSite.Net LLC"
-"AS48090","PPTECHNOLOGY LIMITED"
-"AS52207","JSC ER-Telecom Holding"
-"AS40021","Nubes, LLC"
-"AS140810","Megacore Technology Company Limited"
-"AS14987","Rethem Hosting LLC"
-"AS63949","Akamai Connected Cloud"
-"AS51747","Internet Vikings International AB"
-"AS58519","Cloud Computing Corporation"
-"AS19437","SECURED SERVERS LLC"
-"AS30475","Handy Networks, LLC"
-"AS46261","QuickPacket, LLC"
-"AS132203","Tencent Building, Kejizhongyi Avenue"
-"AS394711","Limenet"
-"AS45102","Alibaba (US) Technology Co., Ltd."
-"AS208312","Red Byte LLC"
-"AS202468","Noyan Abr Arvan Co. (Private Joint Stock)"
-"AS16276","OVH SAS"
-"AS35779","mCloud doo"
-"AS197795","ColdHosting SL"
-"AS211557","TAYNET TEKNOLOJI TICARET LIMITED SIRKETI"
-"AS211619","MAXKO d.o.o."
-"AS34549","meerfarbig GmbH &amp; Co. KG"
-"AS12876","SCALEWAY S.A.S."
-"AS396982","Google LLC"
-"AS15169","Google LLC"
-"AS44477","STARK INDUSTRIES SOLUTIONS LTD"
-"AS51852","Private Layer INC"
-"AS44620","Tres Teknoloji A.S."
-"AS198651","HOSTLINE, UAB"
-"AS9028","OHOST LLC"
-"AS31229","Beyond.pl sp. z o.o."
-"AS215703","ALEXANDRU VLAD trading as FREAKHOSTING"
-"AS24940","Hetzner Online GmbH"
-"AS212317","Hetzner Online GmbH"
-"AS60798","Servereasy Srl"
-"AS44222","Nuno Felgueiras"
-"AS201094","Mulgin Alexander Sergeevich"
-"AS203394","MDCLOUD LTD"
-"AS210644","AEZA INTERNATIONAL LTD"
-"AS210756","EdgeCenter LLC"
-"AS43289","Trabia SRL"
-"AS14576","Hosting Solution Ltd."
-"AS41925","Limited Liability Company Izet Telecom Ural"
-"AS206446","CLOUD LEASE Ltd"
-"AS14593","Space Exploration Technologies Corporation"
-"AS200019","ALEXHOST SRL"
-"AS26383","Baxet Group Inc."
-"AS208264","HAMED SHIRVANI BAGHERI"
-"AS268581","QNAX LTDA"
-"AS60423","E-Money Net Developers 24 Company Private Joint Stock"
-"AS18978","Enzu Inc"
-"AS47285","Patron Technology Persia Ltd"
-"AS215540","GLOBAL CONNECTIVITY SOLUTIONS LLP"
-"AS49556","Web Dadeh Paydar Co (Ltd)"
-"AS149042","Silicon Cloud Global (US)"
-"AS207713","GLOBAL INTERNET SOLUTIONS LLC"
-"AS21859","Zenlayer Inc"
-"AS203087","PE Fedinyak Sergey Vyacheslavovich"
-"AS14061","DigitalOcean, LLC"
-"AS14618","AWS"
-"AS202306","HOSTGLOBAL.PLUS LTD"
-"AS8075","Microsoft Corporation"
-"AS136557","Host Universal Pty Ltd"
-"AS212238","Datacamp Limited"
-"AS60068","Datacamp Limited"
-"AS9009","M247"
-"AS16509","AWS"
-"AS61317","Hivelocity LLC"
-"AS22363","Powerhouse Management, Inc."
-"AS398108","GoDaddy.com, LLC"
-"AS398101","GoDaddy.com, LLC"
-"AS398705","Censys, Inc."
-"AS398324","Censys, Inc."
-"AS398722","Censys, Inc."
-"AS49870","Alsycon B.V."
-"AS59729","GREEN FLOID LLC"
-"AS206264","Amarutu Technology Ltd"
-"AS19871","Network Solutions, LLC"
-"AS56694","LLC Smart Ape"
-"AS399486","VIRTUO"
-"AS8796","FASTNET DATA INC"
-"AS29550","Simply Transit Ltd"
-"AS209366","SEMrush CY LTD"
-"AS59504","LLC Vpsville"
-"AS6461","Zayo Bandwidth"
-"AS18779","EGIHosting"
-"AS397731","EliteWork LLC"
-"AS57695","Misaka Network, Inc."
-"AS62904","Eonix Corporation"
-"AS13332","Hype Enterprises"
-"AS55286","B2 Net Solutions Inc."
-"AS34665","Petersburg Internet Network ltd."
-"AS62240","Clouvider"
-"AS40355","Sundance International LLC"
-"AS9123","TimeWeb Ltd."
-"AS57523","Chang Way Technologies Co. Limited"
-"AS42730","EVANZO e-commerce GmbH"
-"AS202425","IP Volume inc"
-"AS211298","INTERNET MEASUREMENT"
-"AS49434","FBW NETWORKS SAS"
-"AS134768","CHINANET SHAANXI province Cloud Base network"
-"AS42708","GleSYS AB"
-"AS200373","3xK Tech GmbH"
-"AS42473","ANEXIA Internetdienstleistungs GmbH"
-"AS197540","netcup GmbH"
-"AS12552","GlobalConnect AB"
-"AS139201","Jiangxi Jiujiang IDC"
-"AS29066","velia.net Internetdienste GmbH"
-"AS19994","Rackspace Hosting"
-"AS61335","PE Denis Podolskii"
-"AS24961","WIIT AG"
-"AS207566","Chang Way Technologies Co. Limited"
-"AS150436","Byteplus Pte. Ltd."
-"AS60504","Spike Telecom LLC"
-"AS42926","Radore Veri Merkezi Hizmetleri A.S."
-"AS216071","SERVERS TECH FZCO"
-"AS53850","GorillaServers, Inc."
-"AS8560","IONOS SE"
-"AS212860","AIRNET llc"
-"AS3223","Voxility LLP"
-"AS395954","Leaseweb USA, Inc."
-"AS213186","Yanoor Islam Khan"
-"AS39351","31173 Services AB"
-"AS51396","Pfcloud UG"
-"AS31898","Oracle Corporation"
-"AS401120","cheapy.host LLC"
-"AS401115","EKABI"
-"AS9558","PrimeCrown Technologies Private Limited"
-"AS53667","FranTech Solutions"
-"AS401116","Nybula LLC"
-"AS141892","CV Andhika Pratama Sanggoro"
-"AS29522","Cyber_Folks S.A."
-"AS198605","AVAST Software s.r.o."
-"AS199785","Cloud Hosting Solutions, Limited."
-"AS52485","networksdelmanana.com"
-"AS394625","WhiteLabel IT Solutions Corp"
-"AS2639","ZOHO"
-"AS206092","Internet Utilities Europe and Asia Limited"
-"AS6698","Virtual Systems LLC"
-"AS141995","Contabo Asia Private Limited"
-"AS38719","Dreamscape Networks Limited"
-"AS57433","intercolo GmbH"
-"AS210546","Miglovets Egor Andreevich"
-"AS3242","ITnet S.r.l."
-"AS202015","HZ Hosting Ltd"
-"AS200000","Hosting Ukraine LTD"
-"AS62005","BlueVPS OU"
-"AS58065","Orion Network Limited"
-"AS136052","PT Cloud Hosting Indonesia"
-"AS27176","DataWagon LLC"
-"AS215240","Silent Connection Ltd"
-"AS209605","UAB Host Baltic"
-"AS55960","Beijing Guanghuan Xinwang Digital"
-"AS36352","HostPapa"
-"AS13213","UK-2 Limited"
-"AS58461","CT-HangZhou-IDC"
-"AS135377","UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED"
-"AS30633","Leaseweb USA, Inc."
-"AS54641","InMotion Hosting, Inc."
-"AS26347","New Dream Network, LLC"
-"AS55293","A2 Hosting, Inc."
-"AS197902","Hostnet B.V."
-"AS48282","Hosting technology LTD"
-"AS63962","iTools JSC"
-"AS24151","China Internet Network Infomation Center"
-"AS48254","20i Limited"
-"AS133380","Layerstack Limited"
-"AS136787","PacketHub S.A."
-"AS49505","JSC Selectel"
-"AS198488","National Bank of Ukraine"
-"AS50580","Mario Networks Limited"
-"AS216167","Skoali SAS"
-"AS399629","BL Networks"
-"AS212027","pebblehost.com"
-"AS58212","dataforest GmbH"
-"AS214996","netcup GmbH"
-"AS23033","wowrack.com"
-"AS263740","Corporacion Laceibanetsociety"
-"AS26548","PureVoltage Hosting Inc."
-"AS52449","My Tech BZ"
-"AS26658","HT"
-"AS51765","Oy Crea Nova Hosting Solution Ltd"
-"AS214940","KPROHOST LLC"
-"AS44559","IT HOSTLINE LTD"
-"AS142002","Scloud Pte Ltd"
-"AS49238","Doctor Web LLC"
-"AS30902","neda.net"
-"AS16417","Cisco Systems Ironport Division"
-"AS132839","POWER LINE DATACENTER"
-"AS18450","WebNX, Inc."
-"AS134756","CHINANET Nanjing Jishan IDC network"
-"AS50599","DATA SPACE SP Z O O"
-"AS3262","SAREnet, S.A."
-"AS21499","Host Europe GmbH"
-"AS141201","Malaysian Administration Modernisation and Management Planning Unit (MAMPU)"
-"AS198610","Beget LLC"
-"AS48715","Sefroyek Pardaz Engineering PJSC"
-"AS29802","HIVELOCITY, Inc."
-"AS11721","StylenTech LLC"
-"AS63835","CT-HuNan-Changsha-IDC"
-"AS63473","HostHatch, LLC"
-"AS133774","Fuzhou"
-"AS207990","HostRoyale Technologies Pvt Ltd"
-"AS38731","Vietel - CHT Compamy Ltd"
-"AS1101","SURF B.V."
-"AS50360","Tamatiya EOOD"
-"AS47890","UNMANAGED LTD"
-"AS133398","Tele Asia Limited"
-"AS51713","WHG Hosting Services Ltd"
-"AS48096","Enterprise Cloud Ltd."
-"AS197706","Keminet SHPK"
-"AS201814","MEVSPACE sp. z o.o."
-"AS206216","Advin Services LLC"
-"AS214943","Railnet LLC"
-"AS6364","Atlantic.net, Inc."
-"AS63199","CDS Global Cloud Co., Ltd"
-"AS214481","Wojciech Czapkowicz"
-"AS35830","Fast Servers (Pty) Ltd"
-"AS52393","Corporación Dana S.A."
-"AS52053","REDHEBERG"
-"AS14670","WHG Hosting Services Ltd"
-"AS42624","Global-Data System IT Corporation"
-"AS394256","Tech Futures Interactive Inc."
-"AS30513","DYNAMIC INTERNET"
-"AS45090","Shenzhen Tencent Computer Systems Company Limited"
-"AS214295","SKYNET NETWORK LTD"
-"AS49453","Global Layer B.V."
-"AS212504","AdKyNet SAS"
-"AS142367","Institut Teknologi Del"
-"AS43357","Owl Limited"
-"AS203020","HostRoyale Technologies Pvt Ltd"
+ASN,Organization,Reason
+AS0,-Reserved AS-,Reserved Space
+AS1101,SURF B.V.,
+AS11721,StylenTech LLC,
+AS12552,GlobalConnect AB,
+AS12816,Leibniz-Rechenzentrum,
+AS12876,ONLINE S.A.S. (Scaleway),European-based scanning botnets
+AS13213,UK-2 Limited,
+AS132203,Tencent Cloud,Unsolicited probes from Mainland China
+AS132839,POWER LINE DATACENTER,
+AS13332,Hype Enterprises,
+AS133380,Layerstack Limited,
+AS133398,Tele Asia Limited,
+AS133774,Fuzhou,
+AS134756,CHINANET Nanjing Jishan IDC network,
+AS134768,CHINANET SHAANXI province Cloud Base network,
+AS135377,UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED,
+AS136052,PT Cloud Hosting Indonesia,
+AS136557,Host Universal Pty Ltd,
+AS136787,PacketHub S.A.,
+AS139201,Jiangxi Jiujiang IDC,
+AS139341,Aceville Pte Ltd,Tencent Singapore - Failover for blocked bots
+AS14061,DigitalOcean,High-volume disposable bot hosting
+AS140810,Megacore Technology Company Limited,
+AS141039,Packethub s.a.,
+AS141201,Malaysian Administration Modernisation and Management Planning Unit (MAMPU),
+AS141892,CV Andhika Pratama Sanggoro,
+AS141995,Contabo Asia Private Limited,
+AS142002,Scloud Pte Ltd,
+AS142367,Institut Teknologi Del,
+AS14576,Hosting Solution Ltd.,
+AS14593,Space Exploration Technologies Corporation,
+AS14618,AWS,
+AS14670,WHG Hosting Services Ltd,
+AS149042,Silicon Cloud Global (US),
+AS14987,Rethem Hosting LLC,
+AS150436,Byteplus Pte. Ltd.,
+AS15169,Google Cloud,Aggressive scrapers (Use with caution)
+AS16276,OVH SAS,Frequent source of DDoS and mass scanning
+AS16417,Cisco Systems Ironport Division,
+AS16509,AWS,
+AS16509,Amazon.com (AWS),Aggressive scanners (Use with caution)
+AS18450,"WebNX, Inc.",
+AS18779,EGIHosting,
+AS18978,Enzu Inc,
+AS19437,SECURED SERVERS LLC,
+AS197540,netcup GmbH,
+AS197706,Keminet SHPK,
+AS197795,ColdHosting SL,
+AS197902,Hostnet B.V.,
+AS198488,National Bank of Ukraine,
+AS198605,AVAST Software s.r.o.,
+AS198610,Beget LLC,
+AS198651,"HOSTLINE, UAB",
+AS19871,"Network Solutions, LLC",
+AS199785,"Cloud Hosting Solutions, Limited.",
+AS19994,Rackspace Hosting,
+AS200000,Hosting Ukraine LTD,
+AS200019,ALEXHOST SRL,
+AS200373,3xK Tech GmbH,
+AS200595,Global Layer B.V.,Known for hosting bulletproof-style bots
+AS201094,Mulgin Alexander Sergeevich,
+AS201814,MEVSPACE sp. z o.o.,
+AS202015,HZ Hosting Ltd,
+AS202306,HOSTGLOBAL.PLUS LTD,
+AS202425,IP Volume inc,
+AS202468,Noyan Abr Arvan Co. (Private Joint Stock),
+AS203020,HostRoyale Technologies Pvt Ltd,
+AS203087,PE Fedinyak Sergey Vyacheslavovich,
+AS203394,MDCLOUD LTD,
+AS20473,Vultr / Choopa,Common source of private VPN/Proxy exit nodes
+AS204915,Hostinger,Extremely high ratio of risky/malicious IPs
+AS206092,Internet Utilities Europe and Asia Limited,
+AS206216,Advin Services LLC,
+AS206264,Amarutu Technology Ltd,
+AS206446,CLOUD LEASE Ltd,
+AS207566,Chang Way Technologies Co. Limited,
+AS207713,GLOBAL INTERNET SOLUTIONS LLC,
+AS207990,HostRoyale Technologies Pvt Ltd,
+AS208264,HAMED SHIRVANI BAGHERI,
+AS208312,Red Byte LLC,
+AS209366,SEMrush CY LTD,
+AS209605,UAB Host Baltic,
+AS209828,Genc BT Bilisim Teknolojileri Limited Sirketi,
+AS210546,Miglovets Egor Andreevich,
+AS210644,AEZA INTERNATIONAL LTD,
+AS210756,EdgeCenter LLC,
+AS211298,INTERNET MEASUREMENT,
+AS211557,TAYNET TEKNOLOJI TICARET LIMITED SIRKETI,
+AS211619,MAXKO d.o.o.,
+AS212027,pebblehost.com,
+AS212238,Datacamp Limited,
+AS212317,Hetzner Online GmbH,
+AS212504,AdKyNet SAS,
+AS212860,AIRNET llc,
+AS213186,Yanoor Islam Khan,
+AS214295,SKYNET NETWORK LTD,
+AS214481,Wojciech Czapkowicz,
+AS214940,KPROHOST LLC,
+AS214943,Railnet LLC,
+AS21499,Host Europe GmbH,
+AS214996,netcup GmbH,
+AS215240,Silent Connection Ltd,
+AS215540,GLOBAL CONNECTIVITY SOLUTIONS LLP,
+AS215703,ALEXANDRU VLAD trading as FREAKHOSTING,
+AS216071,SERVERS TECH FZCO,
+AS216167,Skoali SAS,
+AS21859,Zenlayer Inc,
+AS22363,"Powerhouse Management, Inc.",
+AS23033,wowrack.com,
+AS23470,ReliableSite.Net LLC,
+AS24151,China Internet Network Infomation Center,
+AS24940,Hetzner Online GmbH,Aggressive AI scraping and scanning
+AS24961,WIIT AG,
+AS26347,"New Dream Network, LLC",
+AS263740,Corporacion Laceibanetsociety,
+AS26383,Baxet Group Inc.,
+AS2639,ZOHO,
+AS26548,PureVoltage Hosting Inc.,
+AS26658,HT,
+AS268581,QNAX LTDA,
+AS27176,DataWagon LLC,
+AS29066,velia.net Internetdienste GmbH,
+AS29522,Cyber_Folks S.A.,
+AS29550,Simply Transit Ltd,
+AS29802,"HIVELOCITY, Inc.",
+AS30475,"Handy Networks, LLC",
+AS30513,DYNAMIC INTERNET,
+AS30633,"Leaseweb USA, Inc.",
+AS30902,neda.net,
+AS31229,Beyond.pl sp. z o.o.,
+AS31898,Oracle Cloud,"High abuse rates from ""Always Free"" tier"
+AS3223,Voxility LLP,
+AS3242,ITnet S.r.l.,
+AS3262,"SAREnet, S.A.",
+AS34549,meerfarbig GmbH &amp; Co. KG,
+AS34665,Petersburg Internet Network ltd.,
+AS35779,mCloud doo,
+AS35830,Fast Servers (Pty) Ltd,
+AS36352,HostPapa,
+AS38532,Exabytes Network (Singapore) Pte. Ltd.,
+AS38719,Dreamscape Networks Limited,
+AS38731,Vietel - CHT Compamy Ltd,
+AS39351,31173 Services AB,
+AS394256,Tech Futures Interactive Inc.,
+AS394625,WhiteLabel IT Solutions Corp,
+AS394711,Limenet,
+AS395954,"Leaseweb USA, Inc.",
+AS396982,Google LLC,
+AS397731,EliteWork LLC,
+AS398101,"GoDaddy.com, LLC",
+AS398108,"GoDaddy.com, LLC",
+AS398324,"Censys, Inc.",
+AS398705,"Censys, Inc.",
+AS398722,"Censys, Inc.",
+AS399486,VIRTUO,
+AS399629,BL Networks,
+AS40021,"Nubes, LLC",
+AS401115,EKABI,
+AS401116,Nybula LLC,
+AS401120,cheapy.host LLC,
+AS40355,Sundance International LLC,
+AS40676,Psychz Networks,Frequent source of SSH and FTP brute-force
+AS41925,Limited Liability Company Izet Telecom Ural,
+AS42473,ANEXIA Internetdienstleistungs GmbH,
+AS42624,Global-Data System IT Corporation,
+AS42708,GleSYS AB,
+AS42730,EVANZO e-commerce GmbH,
+AS42926,Radore Veri Merkezi Hizmetleri A.S.,
+AS43289,Trabia SRL,
+AS43357,Owl Limited,
+AS44222,Nuno Felgueiras,
+AS44477,STARK INDUSTRIES SOLUTIONS LTD,
+AS44559,IT HOSTLINE LTD,
+AS44620,Tres Teknoloji A.S.,
+AS45090,Shenzhen Tencent Computer Systems Company Limited,
+AS45102,Alibaba Cloud,Aggressive e-commerce and data scrapers
+AS45839,Shinjiru Technology Sdn Bhd,
+AS46261,"QuickPacket, LLC",
+AS46602,M247 Ltd,Commonly associated with malicious VPN traffic
+AS47285,Patron Technology Persia Ltd,
+AS47890,UNMANAGED LTD,
+AS48090,PPTECHNOLOGY LIMITED,
+AS48096,Enterprise Cloud Ltd.,
+AS48254,20i Limited,
+AS48282,Hosting technology LTD,
+AS48715,Sefroyek Pardaz Engineering PJSC,
+AS49238,Doctor Web LLC,
+AS49434,FBW NETWORKS SAS,
+AS49453,Global Layer B.V.,
+AS49505,JSC Selectel,
+AS49556,Web Dadeh Paydar Co (Ltd),
+AS49870,Alsycon B.V.,
+AS50360,Tamatiya EOOD,
+AS50580,Mario Networks Limited,
+AS50599,DATA SPACE SP Z O O,
+AS51167,Contabo GmbH,Heavily used for low-cost automated spam bots
+AS51396,Pfcloud UG,
+AS51713,WHG Hosting Services Ltd,
+AS51747,Internet Vikings International AB,
+AS51765,Oy Crea Nova Hosting Solution Ltd,
+AS51852,Private Layer INC,
+AS52053,REDHEBERG,
+AS52207,JSC ER-Telecom Holding,
+AS52393,Corporación Dana S.A.,
+AS52449,My Tech BZ,
+AS52485,networksdelmanana.com,
+AS53667,FranTech Solutions,
+AS53850,"GorillaServers, Inc.",
+AS54290,Host-Solutions.ro,Offshore hosting for malicious activity
+AS54641,"InMotion Hosting, Inc.",
+AS55286,B2 Net Solutions Inc.,
+AS55293,"A2 Hosting, Inc.",
+AS55960,Beijing Guanghuan Xinwang Digital,
+AS56694,LLC Smart Ape,
+AS57433,intercolo GmbH,
+AS57523,Chang Way Technologies Co. Limited,
+AS57695,"Misaka Network, Inc.",
+AS58065,Orion Network Limited,
+AS58212,dataforest GmbH,
+AS58461,CT-HangZhou-IDC,
+AS58519,Cloud Computing Corporation,
+AS59504,LLC Vpsville,
+AS59729,GREEN FLOID LLC,
+AS60068,Datacamp Limited,
+AS60423,E-Money Net Developers 24 Company Private Joint Stock,
+AS60504,Spike Telecom LLC,
+AS60798,Servereasy Srl,
+AS61317,Hivelocity LLC,
+AS61335,PE Denis Podolskii,
+AS62005,BlueVPS OU,
+AS62240,Clouvider,
+AS62904,Eonix Corporation,
+AS63199,"CDS Global Cloud Co., Ltd",
+AS63473,"HostHatch, LLC",
+AS6364,"Atlantic.net, Inc.",
+AS63835,CT-HuNan-Changsha-IDC,
+AS63949,Linode / Akamai,Automated vulnerability probes
+AS63962,iTools JSC,
+AS6461,Zayo Bandwidth,
+AS6698,Virtual Systems LLC,
+AS8075,Microsoft Azure (Microsoft Corporation),High-volume enterprise-grade botnets
+AS8560,IONOS SE,
+AS8796,FASTNET DATA INC,
+AS9009,M247 Europe,High volume of scrapers and brute-force attempts
+AS9028,OHOST LLC,
+AS9123,TimeWeb Ltd.,
+AS9558,PrimeCrown Technologies Private Limited,
