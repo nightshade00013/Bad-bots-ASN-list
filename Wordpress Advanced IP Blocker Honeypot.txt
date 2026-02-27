@@ -234,13 +234,11 @@
 /backup.zip
 /blog/blog.gz
 /data.gz
-/doghousediving.org.backup.gz
 /httpd.gz
 /includes.gz
 /Latest.gz
 /latest.tar.gz
 /__MACOSX.tar.gz
-/muttmutt.us.backup.gz
 /old/
 /oldsite/
 /site.sql
@@ -249,6 +247,12 @@
 /wp-admin.gz
 /wp-config-bak/
 /wp-old/
+# === Domain Specific Backups ===
+# Enter your specific domain name or names below with a single entry on each line.  An Example is given below.
+/doghousediving.org.backup.gz
+/www.doghousediving.org.backup.gz
+/muttmutt.us.backup.gz
+/www.muttmutt.us.backup.gz
 
 # === 09. DevOps, Containers & Java Targets ===
 /actuator/
