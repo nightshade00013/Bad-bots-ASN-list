@@ -1,6 +1,6 @@
 # 🛡️ Bad Bots & ASN Blocklist with Advanced IP Blocker Honeypot for WordPress
 
-This is a fork from https://github.com/ycomiti/Bad-bots-ASN-list that has been expanded to be used with the tool **[Advanced IP Blocker](https://wordpress.org/plugins/advanced-ip-blocker/)** All credits for the original ASN list go to ycomiti.
+This is a fork from https://github.com/ycomiti/Bad-bots-ASN-list that has been expanded to be used with the tool **[Advanced IP Blocker](https://wordpress.org/plugins/advanced-ip-blocker/)** All credits for the original ASN list go to ycomiti.  All credits for the advanced IP Blocker go to it's developers.
 
 A comprehensive, curated list of Autonomous System Numbers (ASNs) and malicious directory paths used by automated botnets, AI scrapers, and vulnerability scanners.
 
@@ -28,6 +28,18 @@ Located in `Wordpress Advanced IP Blocker Honeypot.txt`, this list contains path
 * **Warning:** If an IP hits any of these paths, it is 100% a malicious probe. 
 * **Integration:** Use these paths within the Advanced IP Blocker "Honeypot" features to auto-ban offenders.
 * **How to use:** Navigate to to the Advanced IP Blocker Honeypot section located at /wp-admin/admin.php?page=advaipbl_settings_page&tab=rules&sub-tab=honeypot
+
+
+
+### If this feels overwhelming for you read this section.
+I understand how it can feel reading all of this I will (hopefully) be completed with a page with much more instructions for those who need them here https://www.muttmutt.us/the-titan-shield-security-project/
+It also incorporates some other things that I call the Titan Shield Security Project.  
+It is a set of 4 plugins that offload most of the traffic to your webserver and allows you to leverage the CloudFlare resources for free while protecting your site from many malicious actors.
+
+** I have put in a few weeks worth of time on compiling and sorting the information in this project as well as incorporating them into my websites.**
+** I am also a survivor of childhood mental, physical, and sexual abuse.**
+** I often get overwhelmed and right now I am nearly at my breaking point so please give me some time to work on the step by step pages.**
+
 
 
 ---
