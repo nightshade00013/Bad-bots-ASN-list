@@ -11,6 +11,10 @@
 # This honeypot list is provided "as is" without warranty of any kind. 
 # The author is not responsible for any server instability, accidental lockouts, 
 # or loss of data resulting from the implementation of these rules.
+#
+# To say thanks please visit:
+# https://www.muttmutt.us/your-welcome-here-is-how-you-can-say-thank-you/
+#
 # ===============================================================
 
 # === 01. Configuration, Credentials & Environment Files ===
