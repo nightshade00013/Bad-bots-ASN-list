@@ -1,0 +1,220 @@
+# ===============================================================
+#                     MuttMutt's User-Agent Blocklist
+#
+# Optomoized - Verified Minimal Conflicts
+#
+# The following is a comprehensive list for the WordPress Plugin
+# Advanced IP Blocker https://advaipbl.com/
+# https://wordpress.org/plugins/advanced-ip-blocker/
+# You can access the User-Agent page on your WordPress website 
+# with the Advanced IP Blocker Plugin installed by going to:
+# /wp-admin/admin.php?page=advaipbl_settings_page&tab=rules&sub-tab=user_agents
+# This User-Agent list is provided "as is" without warranty of any kind. 
+# The author is not responsible for any server instability, accidental lockouts, 
+# or loss of data resulting from the implementation of these user agents.
+#
+# To say thanks please visit:
+# https://www.muttmutt.us/your-welcome-here-is-how-you-can-say-thank-you/
+#
+#   Rules starting with # should only be used with proper understanding.
+#
+# ===============================================================
+# === Vulnerability Scanners & Pentesting Tools ===
+# GOAL: Hard-block these. They are used to find unpatched plugins or weak passwords.
+Acunetix           # Professional-grade scanner; used by hackers to map your site's weak points.
+Arachni        	   # High-performance scanner for web apps; no legitimate reason for this to hit your site.
+Burp               # Standard "Man-in-the-Middle" tool used to intercept and manipulate your site's traffic.
+CensysInspect      # Internet-wide scanner; maps your server's IP to your domain for future targeted attacks.
+Dirb               # "Brute force" tool that guesses hidden folder names like /admin or /backup.
+DirBuster          # Similar to Dirb; a heavy-duty tool for finding files you didn't mean to make public.
+dirsearch          # Modern command-line tool that hunts for forgotten .env, .git, or .php config files.
+Expanse            # Corporate asset mapper; usually just "noise" in your logs that drains bandwidth.
+Feroxbuster        # Extremely fast directory brute-forcer; can cause high CPU spikes on your server.
+Fuzz/              # Indicates "fuzzing"—sending random data to your forms to try and crash the site.
+Go-http-client     # Default identity for programs in the Go language; almost always a custom attack script.
+Gobuster           # High-speed scanner used specifically to find hidden subdomains or directories.
+Havij              # Infamous "one-click" tool used to automate SQL Injection (stealing your database).
+Indy Library       # Older Delphi-based library; very common in legacy malware and spam tools.
+internet-measurement # Usually university or research bots; they provide zero SEO value.
+JSScanner/         # Specifically hunts for vulnerabilities in your site's JavaScript files.
+masscan            # "The internet's fastest scanner"; used by botnets to find vulnerable IP addresses.
+Nessus             # Enterprise-grade vulnerability scanner; if this hits you, a targeted probe is likely.
+Netsparker         # Automated web security scanner; used to find SQL injection and XSS holes.
+Nikto              # Classic scanner that looks for 6,000+ dangerous files and outdated server software.
+Nmap               # The king of network scanners; maps every open door (port) on your server.
+Nuclei             # Modern, template-based scanner; used by hackers to find "day-one" exploits.
+OpenVAS            # Open-source vulnerability manager; useful for pros, but slows down your site.
+Photon/1.0         # A crawler designed to extract URLs, emails, and social media handles for spam.
+PostmanRuntime     # Tool used by developers to test APIs; if you aren't a dev, it shouldn't be here.
+PressVuln          # Specifically targets WordPress sites to find unpatched plugin or theme bugs.
+Qualys             # High-end enterprise security scanner; usually unauthorized when hitting a small site.
+ScanNG             # Emerging automated scanner; high-frequency and very noisy in server logs.
+SF/                # Generic prefix for many different automated "Security Framework" tools.
+sqlmap             # The most dangerous tool for databases; it automates the theft of your user tables.
+Tsunami            # Google-developed scanner; powerful, but should only be run by the site owner.
+Vega               # Cross-platform security scanner; no benefit to regular human traffic.
+Wfuzz              # Used to brute-force web forms, such as your WordPress login page.
+WhatWeb            # Fingerprints your site to find exactly which WordPress and PHP versions you use.
+WPScan             # The "WordPress Hacking Standard"; it finds holes in your specific plugins.
+WPSec              # Similar to WPScan; an automated service that probes for WordPress vulnerabilities.
+ZAP/               # OWASP Zed Attack Proxy; a manual tool used to find security flaws.
+zgrab              # Used for massive internet-wide scans to identify specific server software.
+zgrab2             # The updated version of zgrab; often used to find servers for botnet recruitment.
+# === Generic Bots & Scripting Libraries ===
+# GOAL: Challenge or block. These identify "headless" clients (code, not people).
+aiohttp/           # Modern Python library used to write fast, custom scraping scripts.
+Apache-HttpClient  # Java-based library; frequently used by older automated bots and scrapers.
+axios/             # JavaScript library; common in modern scrapers that try to mimic web apps.
+Cypress/           # Testing framework; often hijacked by scrapers to automate browser tasks.
+curl               # Command-line downloader; used to "rip" your images or scrape text content.
+Faraday            # A common Ruby library used for automating web requests.
+GuzzleHttp         # A PHP library; while common in plugins, it's a red flag if hitting your front end.
+HeadlessChrome     # A browser with no window; the primary tool for automated, modern web scraping.
+HTTrack            # "Site Sucker"; used to download your entire website to a local hard drive.
+Java/              # Real humans use browsers; if the ID is just "Java," it's an automated script.
+libwww             # Very old web library; almost 100% of traffic from this is malicious or legacy bots.
+libwww-perl        # The Perl version of libwww; a classic favorite for old-school hackers and spammers.
+okhttp             # Popular for Android app automation; frequently used in mobile ad-fraud.
+perl               # A programming language; rarely used for anything but malicious scraping today.
+PhantomJS          # Legacy headless browser; still used by many old scraping "farms" to steal data.
+php/               # If your site is being hit by "php/," another server is likely trying to scrape you.
+Playwright         # Modern automation tool; it can bypass basic bot detection by mimicking humans.
+Puppeteer          # Google's tool for controlling Chrome; used for massive, automated content scraping.
+Python             # The language of choice for writing malicious web-crawling and scraping scripts.
+python-requests    # The most common library for Python scrapers; safe to block 99% of the time.
+Python-urllib      # A lower-level Python library; almost exclusively used in bot scripts.
+ruby               # Like Python, if "Ruby" is the User Agent, it’s a script, not a person.
+Scrapy             # A framework built specifically for "scraping" every single page on your site.
+Selenium           # Browser automation used for testing; used by bots to simulate human "clicks."
+TencentTraveler    # Older Chinese browser fragment; often associated with regional botnets.
+Typhoeus           # High-speed Ruby library for sending many requests at once; a bandwidth drainer.
+wget               # Command-line tool similar to curl; used to automate file or site downloads.
+# === Aggressive Scrapers & Black Hat SEO Bots ===
+# GOAL: Block these to save money. They steal your data to sell it.
+AhrefsBot          # Commercial SEO tool; drains your bandwidth to sell your data to other people.
+AliyunSecBot       # Security bot from Alibaba Cloud; can be very aggressive and resource-heavy.
+AspiegelBot        # Huawei's crawler; famous for ignoring "robots.txt" and hammering servers.
+AwarioBot          # A "social listening" bot; scrapes you to see if anyone is mentioning keywords.
+BW/                # Generic "BitWindow" scraper identifier.
+Bytespider         # Bytedance/TikTok crawler; very high volume and drains significant server CPU.
+contabot           # Data scraper that collects information for "contact lead" lists.
+CriteoBot          # Ad-tech bot; provides zero SEO value for your foundation or channel.
+dataprovider       # Commercial data collector; "mines" your site for business or contact info.
+DigExt             # Legacy "Offline Explorer" fragment used for ripping sites.
+DotBot             # A massive crawler for the "Moz" SEO tool; known for high bandwidth usage.
+EmailCollector     # Does exactly what it says: steals your email addresses for spam lists.
+ExtractorPro       # Legacy software used for ripping and "spinning" your content.
+GoogleOther        # A catch-all for Google bots that ARE NOT the main search engine; usually safe to block.
+Grapeshot          # Oracle's crawler; used for ad-targeting, not for helping your search ranking.
+IonCrawl           # A scraper often used to build "shadow" or pirate copies of websites.
+ISSCyberRiskCrawler # "Cyber risk" assessment bot; mostly just annoying "noise" in your server logs.
+Kuaishou           # Massive Chinese video platform bot; scrapes for content and AI training.
+Linguee            # Translation bot; rips your text to help train its commercial dictionary.
+Linkfluence        # Social media monitoring; scrapes your site for "brand mentions."
+MegaIndex          # Commercial backlink checker; provides no SEO value to your specific niche.
+MJ12bot            # Majestic SEO crawler; high volume, low benefit for small/non-profit sites.
+PaperLiBot         # A news "curator" that scrapes your articles to build its own ad-heavy pages.
+PetalBot           # Another Huawei crawler; very aggressive and often ignores crawl limits.
+SemrushBot         # Commercial SEO crawler; block unless you are actively using their paid service.
+TurnitinBot        # Academic plagiarism bot; unnecessary for most sites.
+UCBrowser          # Popular in Asia; its "mini" version is frequently used for automated scraping.
+WebCollector       # Tool used to steal entire websites for offline viewing or cloning.
+WebCopier          # Similar to WebCollector; used for ripping your site's structure.
+Zoominfobot        # Scrapes your site to find employee names and phone numbers to sell.
+# === Spam, Low-Quality AI & Comment Bots ===
+# GOAL: Protect your intellectual property. These "eat" your content for AI training.
+AcoonBot/          # A German search bot; very low traffic and provides no SEO value.
+anthropic-ai       # Claude's crawler; trains their AI on your reef and diving descriptions.
+Applebot-Extended  # Apple's AI training bot; block to keep your data off their private models.
+BoardReader        # Scrapes forums and blogs to index and archive "discussions."
+CCBot              # "Common Crawl"; a massive dataset used to train almost every major AI model.
+ChatGPT-User       # Individual ChatGPT users using the AI to "browse" your site in real-time.
+Claude-Web         # Anthropic's browser-based AI crawler.
+ClaudeBot          # The main crawler for the Claude AI; drains resources for no search credit.
+Cochane            # Emerging niche AI scraper that targets blogs and foundations.
+DataForSeoBot      # Scrapes you to sell your data to "SEO service" and "AI" companies.
+Diffbot            # AI crawler that turns your web pages into "data points" for sale.
+FriendlyCrawler    # Ironically named; it is rarely actually friendly to your server's bandwidth.
+Google-Extended    # Google's "AI training" toggle; block to keep your site out of Gemini's training.
+GPTBot             # OpenAI's primary crawler; block it to protect your unique diving content.
+Image2dataset      # Specifically used to steal your diving images to train AI image generators.
+ImagesiftBot       # Another image-scraping AI bot that provides no value to the photographer.
+OAI-SearchBot      # OpenAI's search engine bot; block unless you want to rank in ChatGPT's search.
+omgili             # "Oh My God I Love It"; an aggressive scraper for "opinion" and forum data.
+omgilibot          # The bot version of omgili; known for heavy, rapid-fire scraping.
+PerplexityBot      # AI search engine; block if you want users to visit YOUR site, not get an AI summary.
+petalbot           # Huawei's AI and Search crawler; redundant for US-based sites.
+Timpibot           # Emerging niche AI scraper that provides no traffic or value.
+YandexBot          # Russia's primary search engine; very aggressive and rarely leads to real users.
+ZmEu               # Famous for searching for "vulnerable" PHP files to exploit on your server.
+# === Aggressive Regional Crawlers ===
+# GOAL: Block these unless you have a global audience. They waste your electricity.
+Baiduspider        # China's primary search engine; high volume, zero US-market value.
+Baiduspider-image  # Baidu's image-specific crawler; steals your photos for Chinese search results.
+Baiduspider-news   # Baidu's news crawler; ignores standard news indexing rules.
+Barkrowler         # A "crawling-as-a-service" bot; very high volume and resource intensive.
+BLEXBot            # A high-speed scraper used for "web analysis" and data mining.
+msnbot-media       # Old Microsoft media crawler; often used by modern bots as a "fake" identity.
+news-please        # A scraper designed specifically to steal news articles and blog posts.
+Orbbot             # Niche crawler with very low traffic and no SEO benefit.
+peer39_crawler     # Ad-tech bot that "scans" your content for "brand safety" metrics.
+SeznamBot          # Search engine crawler from the Czech Republic.
+Sogou              # A popular Chinese search engine crawler; high bandwidth usage.
+VelenPublicWebCrawler # High-volume scraper for "public data" and academic research.
+wp_is_mobile       # A fragment often used by bots to try and trigger "mobile-only" vulnerabilities.
+YisouSpider        # A popular Chinese mobile search crawler.
+Yeti/              # South Korea's Naver crawler; very high volume and redundant for local sites.
+Zoominfobot        # Scrapes your site to find employee names and phone numbers to sell.
+# === Suspicious, Malformed, or Fake User-Agents ===
+# GOAL: Hard-block. These are generally clear signs of a bot or hacker trying to hide.
+Chrome/100.0.0.0   # Lazy bot-makers use this "perfect" number as a fake, hardcoded identity.
+Cloudflare-Requests # Bots trying to look like they are coming from within Cloudflare's network.
+Dalvik/            # The engine inside older Android; often used for mobile ad-fraud botnets.
+Empty              # If the bot doesn't even provide an ID, it's almost always malicious.
+GRequests/         # "Greens" Python library; used for writing custom, high-speed scraping tools.
+Headless           # Some bots literally admit they are "headless" (automated) browsers.
+#http://           # Identifies bots that accidentally put a web link in their identity string. Could also block legitimate bots.
+#https://          # Identifies bots that accidentally put a secure link in their identity string. Could also block legitimate bots.
+forms.gle          # Spammers who put a link to a Google Form in their identity to get clicks.
+Internet Explorer  # Fake. Real IE uses "MSIE" or "Trident." This is a clear bot sign.
+mailto:            # Spammers trying to "leave" an email address in your server logs.
+morfeus            # A classic vulnerability scanner identifier from the early 2000s.
+Mozlila            # A misspelling of "Mozilla"; a classic "script-kiddie" or low-level bot mistake.
+Scraper            # Some bots are honest enough to literally identify as "Scraper."
+ShellBot           # A dangerous bot used to "take over" your server via a malicious shell script.
+Unknown            # If the identity is literally "Unknown," it is a bot attempting to hide.
+User-Agent:        # A bot that accidentally included the header label inside the identity value.
+#X11; Linux x86_64  # NOTE: Only block if you want to block legitimate linux users as well.  The Author of this list is one of them...
+# === Outdated User-Agents (Legacy & Bot Identities) ===
+# GOAL: Block. Ancient devices used by botnets to rotate IDs and look "random."
+BlackBerry8520     # A smartphone from 2009; zero chance a real donor is using this today.
+BlackBerry9300     # Another legacy BlackBerry device used in bot-rotation lists.
+Chrome/45          # A browser version from 2015; insecure and incapable of modern web standards.
+DoCoMo/2.0         # An ancient Japanese mobile protocol; no longer in legitimate use for browsing.
+Firefox/3.0        # A browser version from 2008; massive security risks.
+Firefox/40.1       # A browser version from 2015; often used by bots mimicking old PCs.
+IEMobile/7.0       # Windows Phone 7; discontinued over a decade ago.
+J-PHONE/           # An ancient Japanese mobile string from the early 2000s.
+Kindle/1.0         # The first-ever Kindle; it can barely load text, let alone a modern site.
+MOT-V3             # The Motorola Razr (2004); iconic, but not a modern web browser.
+MSIE 5.0           # Internet Explorer 5 (1999); exclusively used by old botnets.
+MSIE 5.5           # Internet Explorer 5.5 (2000); another legacy bot identity.
+MSIE 6.0           # Internet Explorer 6; famous for being the most insecure browser in history.
+MSIE 7.0           # Internet Explorer 7; ancient and unsupported for over a decade.
+MSIE 8.0           # Internet Explorer 8; used only by botnets mimicking old Windows XP machines.
+MSIE 9.0           # Internet Explorer 9; the last of the "old" IE versions.
+#Mozilla/4.0       # Use with caution; occasionally used by legitimate users with older system compatibility turned on.
+NetFront/          # An old browser engine for mobile phones and consoles like the PS3.
+Nexus 5            # A Google phone from 2013; no longer receiving security updates.
+Nokia6230i         # A classic "candy bar" phone from 2005.
+NokiaN95           # A high-end phone from 2007; no longer used for legitimate browsing.
+Opera/8.19         # An ancient version of the Opera browser from the mid-2000s.
+Opera/9.80         # Another legacy Opera version common in bot traffic.
+PlayStation 3      # A gaming console from 2006; its browser is extremely insecure today.
+PSP                # PlayStation Portable; its browser is a frequent target for "shell" attacks.
+Safari/534.24      # An ancient version of Safari (2011) used by legacy botnets.
+Samsung-SGH-E250   # A "slider" phone from 2006.
+SonyEricssonK750i  # A camera-phone from 2005.
+UP.Browser/        # An ancient "WAP" browser fragment for old flip phones.
+Vodafone/1.0       # A legacy carrier-specific browser identity string.
+Windows NT 5.1     # Windows XP; totally insecure and generally only used by legacy botnets today.
